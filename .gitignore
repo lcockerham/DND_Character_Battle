@@ -1,0 +1,135 @@
+# DND Character Battle - Git Ignore File
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Language-Specific
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+.gradletasknamecache
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Environment and Configuration
+.env
+.env.local
+.env.*.local
+config.local.*
+secrets.*
+*.key
+*.pem
+
+# Build outputs
+dist/
+build/
+out/
+*.o
+*.exe
+*.out
+*.app
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js.snap
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
