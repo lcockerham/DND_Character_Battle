@@ -93,13 +93,6 @@ Examples:
 - `claude/implement-combat-system-A1B2C`
 - `claude/add-character-creation-D3E4F`
 
-### Important Rules
-
-⚠️ **CRITICAL:** All branches MUST:
-- Start with `claude/`
-- End with a matching session ID
-- Otherwise, push will fail with 403 HTTP code
-
 ### Commit Message Format
 
 Use conventional commit format:
@@ -376,21 +369,6 @@ Both should be kept up to date, but serve different audiences.
 - Make giant commits with unrelated changes
 - Commit commented-out code
 - Commit sensitive data (.env files, keys)
-
-### 🔄 Git Push Protocol
-
-When pushing:
-
-```bash
-# Always use -u flag for new branches
-git push -u origin claude/feature-name-XXXXX
-
-# If network failure, retry with exponential backoff:
-# Wait 2s, retry
-# Wait 4s, retry
-# Wait 8s, retry
-# Wait 16s, final retry
-```
 
 ### 🎯 Task Completion
 
